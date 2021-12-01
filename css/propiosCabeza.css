@@ -1,0 +1,516 @@
+.container {
+    width: 100%;
+}
+
+.fila {
+    display: block !important;
+    display: flex !important;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between !important;
+}
+
+.mas {
+    float: right !important;
+    width: 200px!important;
+    padding-top: 10px;
+}
+
+.logo {
+    width: auto !important;
+    margin-right: 0px !important;
+}
+
+.logo h1 {
+    font-size: 40px;
+    padding-top: 5px;
+    color: white;
+}
+
+.otro {
+    display: inline-block !important;
+}
+
+.header-ctn {
+    padding: 0px 0px !important;
+}
+
+.menu-toggle {
+    padding: 0px 0px !important;
+}
+
+.menu-toggle i {
+    padding: 0px 0px !important;
+    margin: 0px;
+}
+
+.tamano a {
+    width: 100% !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.centrar {
+    text-align: center !important;
+}
+
+.tooltipp a {
+    color: white;
+}
+
+.nav {
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .logo h1 {
+        font-size: 35px;
+        padding-top: 5px;
+        color: white;
+    }
+    #responsive-nav {
+        margin-top: 86px !important;
+    }
+    .cart-dropdown {
+        margin-top: 26px !important;
+    }
+}
+
+.asidebooton {
+    margin-top: -500px !important;
+    margin-left: 20px;
+}
+
+.hoverscar {
+    border: 0px !important;
+}
+
+.hoverscar:hover {
+    box-shadow: 0px 0px 6px 0px #ffffff, 0px 0px 0px 2px #222222 !important;
+}
+
+.selectDiv:hover {
+    background: rgba(226, 226, 226, 0.377);
+}
+
+@media screen and (max-width: 991px) {
+    .aside {
+        width: 250px;
+        display: inline-block;
+    }
+    .categ {
+        margin-top: -50px !important;
+        padding-bottom: 50px !important;
+    }
+    .section_caja {
+        width: 80% !important;
+        height: 200px;
+    }
+    .responsive-nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #15161d;
+        height: 200vh;
+        width: 250px;
+        max-height: 400px;
+        overflow: hidden;
+        z-index: 22;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+    }
+    .vendidos {
+        padding: 26px;
+    }
+    .aside.selectDiv {
+        margin-top: -50px !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .section_caja {
+        width: 90% !important;
+        height: 200px;
+    }
+    .titulox h1 {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .section_caja {
+        width: 100% !important;
+        height: 200px;
+    }
+    .titulox h1 {
+        font-size: 27px !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .categ {
+        width: 100% !important;
+        text-align: center;
+    }
+    .vendidos {
+        text-align: center;
+        width: 80% !important;
+        margin-top: -60px !important;
+        margin: auto;
+    }
+    .buscar .active {
+        background: rgba(228, 31, 31, 0.685);
+        color: white !important;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .logo h1 {
+        font-size: 31px;
+    }
+}
+
+.containers {
+    margin-top: -30px !important;
+    width: 98%;
+    max-width: 98%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.103);
+}
+
+.caja {
+    display: flex !important;
+}
+
+.section_aside {
+    width: 30%;
+    height: 200px;
+    background: rgb(53, 52, 52);
+}
+
+.section_caja {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: inline-block !important;
+}
+
+.caja_publicacion {
+    margin: 2.1%;
+    width: 45%;
+    height: auto;
+    background: rgb(218, 218, 218);
+    display: inline-block !important;
+    cursor: pointer;
+}
+
+.pub_img {
+    width: 100%;
+    height: auto;
+}
+
+.pub_img img {
+    width: 100%;
+}
+
+.descripcion {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.836);
+    margin-top: -35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.descrip {
+    border: 0px;
+    padding: 5px 10px;
+    color: rgb(31, 31, 31);
+}
+
+.descrip:hover {
+    background: rgb(31, 31, 31);
+    color: white;
+}
+
+.descripcion p {
+    margin-left: 10px;
+    color: black;
+}
+
+
+/* Shine */
+
+.hover14 figure {
+    position: relative;
+}
+
+.hover14 figure::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.hover14 figure:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+.titulox h1 {
+    font-size: 40px;
+}
+
+
+/* Circle */
+
+.hover15 figure {
+    position: relative;
+}
+
+.hover15 figure::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.hover15 figure:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+.modal-dialog {
+    border: 0px !important;
+}
+
+.modal-content {
+    background: rgb(34, 34, 34) !important;
+    border: 0px !important;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.modal-body {
+    padding: 0px 0px !important;
+    border-bottom: 0px !important;
+}
+
+.modal-footer {
+    padding: 10px;
+    text-align: right;
+    border-top: 0px solid #e5e5e5;
+}
+
+.modal-footer .btn {
+    border: 0px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.modal-footer .btn:hover {
+    border: 0px;
+    outline: none;
+}
+
+.mercado {}
+
+.productostodo {
+    background: black !important;
+}
+
+.cortarsubir {
+    margin-top: -60px !important;
+}
+
+.buscar li {
+    padding: 8px;
+}
+
+.buscar li a {
+    width: 100%;
+    padding: 8px;
+    color: rgb(37, 37, 37);
+}
+
+.buscar li a:hover {}
+
+.categor {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+}
+
+.hombre {
+    background: rgb(221, 12, 12);
+    color: white;
+}
+
+.circulo {
+    width: 200px;
+    height: 30px;
+    display: inline-block
+}
+
+.categor a {
+    margin-top: 30px;
+    padding: 4px 10px;
+    margin-left: 10px;
+    right: 0px;
+    background: rgb(194, 16, 16);
+    color: white;
+}
+
+.categor a:hover {
+    background: rgb(209, 94, 94);
+    color: rgb(19, 19, 19);
+}
+
+.centrados {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.formularioLogin {
+    width: 90%;
+    margin: auto;
+}
+
+.formularioLogin h1,
+p {
+    text-align: center;
+    color: white;
+}
+
+.formularioLogin input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-top: 20px;
+    border: 0px;
+}
+
+.formularioLogin button {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    background: rgb(182, 57, 57);
+    color: white;
+}
+
+.formularioLogin button:hover {
+    background: rgba(204, 8, 8, 0.644);
+    color: white;
+}
+
+.nuevotamano {
+    width: 350px !important;
+}
+
+.buscar .active {
+    background: rgba(228, 31, 31, 0.685);
+    color: white !important;
+    width: 100% !important;
+}
+
+.buscar {
+    color: white;
+}
+
+.detallecitos p {
+    color: black !important;
+    text-align: justify !important;
+}
+
+.btnmio {
+    width: 100%;
+}
+
+.btnmio a {
+    background: rgb(34, 34, 34);
+    padding: 6px 40px;
+    color: white;
+}
+
+.btnmio a:hover {
+    background: rgb(207, 19, 19);
+    padding: 6px 40px;
+    color: white;
+}
